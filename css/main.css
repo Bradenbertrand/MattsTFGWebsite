@@ -8,6 +8,10 @@ html {
   Font-family: 'Roboto', Sans-serif;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -25,12 +29,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #76a500;
+  color: white;
+  text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #acc300;
+  color: #303030;
 }
 
 .icon {
@@ -80,7 +85,11 @@ nav {
 
 body {
   background-image: url("/Images/ArchiveStaticBG.jpg");
-  background-size: 100vw auto;
+  background-size: 100vw 3240px;
+  overflow: scroll;
+  width: 100vw;
+  height: 3000px;
+  margin: 0;
 }
 
 h1 {
