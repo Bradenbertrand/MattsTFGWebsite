@@ -1,0 +1,145 @@
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  padding: 0;
+  Font-family: 'Roboto', Sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+ul {
+  display: inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #76a500;
+}
+
+a:hover,
+a:focus {
+  color: #acc300;
+}
+
+.icon {
+  position: relative;
+  height: 8em;
+  width: 8em;
+}
+
+.icon svg {
+  left: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  fill: currentColor;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  padding-top: 8vh;
+  padding-left: 9vh;
+}
+
+.nav_list {
+  padding-left: 5vh;
+  padding-right: 3vh;
+  padding-top: 3vh;
+  font-size: 32px;
+}
+
+.nav_image {
+  height: 10vh;
+  width: 10vh;
+}
+
+.prompt {
+  height: 65vh;
+  margin-top: 10vh;
+  width: 80%;
+  margin-left: 9%;
+}
+
+.prompt-text {
+  color: white;
+}
+
+body {
+  background-image: url("/Images/ArchiveStaticBG.jpg");
+  background-size: 100vw auto;
+}
+
+h1 {
+  Font-size: 90.44px;
+}
+
+h2 { 
+  Font-size: 63.96px;
+  margin-bottom: 0;
+}
+
+h3 {
+  Font-size: 45.23px;
+  margin: 0;
+}
+
+.h4 {
+  Font-size: 31.99px;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+}
+
+h5 {
+  Font-size: 22.62px;
+}
+
+h6 {
+  Font-size: 16px;
+}
+
+.tinytext {
+  Font-size: 8px;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.black {
+  font-weight: 900;
+}
+
+.bottomtext {
+  margin-top: 10vh;
+  Font-size: 31.99px;
+}
