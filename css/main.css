@@ -1,158 +1,200 @@
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-  padding: 0;
-  Font-family: 'Roboto', Sans-serif;
+    box-sizing: border-box;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    padding: 0;
+    Font-family: 'Roboto', Sans-serif;
 }
 
 ::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 ul {
-  display: inline-flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-items: start;
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+    display: inline-flex;
+    justify-items: start;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
 }
 
 a {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
 }
 
 a:hover,
 a:focus {
-  color: #303030;
+    color: #b8b8b8;
 }
 
-.icon {
-  position: relative;
-  height: 8em;
-  width: 8em;
+.home {
+    background-color: white;
 }
 
-.icon svg {
-  left: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  fill: currentColor;
+.archive {
+    background-image: url("/Images/ArchiveStaticBG.jpg");
+    background-size: 1920px 3240px;
+    overflow: scroll;
+    width: 100vw;
+    margin: 0;
 }
 
-nav {
-  font-family: 'Roboto', sans-serif;
-  color: white;
-  padding-top: 8vh;
-  padding-left: 9vh;
+.navigation {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 8vh;
+    padding-left: 9vh;
 }
 
-.nav_list {
-  padding-left: 10vh;
-  padding-right: 3vh;
-  padding-top: 3vh;
-  font-size: 32px;
+.nav_list_archive {
+    color: white;
+    padding-left: 10vh;
+    padding-right: 3vh;
+    padding-top: 3vh;
+    font-size: 32px;
+}
+
+.nav_list_shop {
+    color: black;
+    padding-left: 10vh;
+    padding-right: 3vh;
+    padding-top: 3vh;
+    font-size: 32px;
+}
+
+.nav_list_footer {
+    color: white;
+    padding-left: 10vh;
+    padding-right: 3vh;
+    padding-top: 3vh;
+    font-size: 18px;
 }
 
 .nav_image {
-  height: 10vh;
-  width: 10vh;
+    height: 10vh;
+    width: 10vh;
 }
 
 .prompt {
-  height: 65vh;
-  margin-top: 23vh;
-  width: 80%;
-  margin-left: 19vh;
-  color: white;
-}
-
-.prompt-text {
-}
-
-body {
-  background-image: url("/Images/ArchiveStaticBG.jpg");
-  background-size: 1920px 3240px;
-  overflow: scroll;
-  width: 100vw;
-  height: 3000px;
-  margin: 0;
+    display: flex;
+    height: 65vh;
+    margin-top: 10vh;
+    width: 80%;
+    margin-left: 19vh;
+    color: white;
 }
 
 h1 {
-  Font-size: 90.44px;
+    font-size: 90.44px;
 }
 
-h2 { 
-  Font-size: 63.96px;
-  margin-bottom: 0;
+h2 {
+    font-size: 63.96px;
+    margin-bottom: 0;
 }
 
 h3 {
-  Font-size: 45.23px;
-  margin: 0;
+    font-size: 45.23px;
+    margin: 0;
 }
 
 h4 {
-  Font-size: 31.99px;
-  margin-top: 10vh;
-  margin-bottom: 15vh;
+    font-size: 31.99px;
+    margin-top: 10vh;
 }
 
 h5 {
-  Font-size: 22.62px;
+    font-size: 22.62px;
 }
 
 h6 {
-  Font-size: 16px;
+    font-size: 16px;
 }
 
 .tinytext {
-  Font-size: 8px;
+    font-size: 8px;
 }
 
 .thin {
-  font-weight: 100;
+    font-weight: 100;
 }
 
 .light {
-  font-weight: 300;
+    font-weight: 300;
 }
 
 .regular {
-  font-weight: 400;
+    font-weight: 400;
 }
 
 .medium {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .bold {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .black {
-  font-weight: 900;
+    font-weight: 900;
 }
 
 .toptext {
-  margin-top: 15vh;
-  margin-bottom: 4vh;
+    margin-top: 15vh;
+    margin-bottom: 4vh;
 }
+
 .bottomtext {
-  margin-top: 10vh;
-  Font-size: 31.99px;
+    margin-top: 10vh;
+    Font-size: 31.99px;
+}
+
+.inaworld_container {
+    display: flex;
+    height: 10vh;
+    justify-content: flex-end;
+    margin-right: 8vw;
+    margin-top: 25vh;
+}
+
+.inaworld_text {
+    color: white;
+    margin: 0;
+    opacity: 0.5;
+}
+
+.footer {
+    margin-left: 10vw;
+    display: flex;
+    width: 90vw;
+    height: 20vh;
+    padding-top: 5vh;
+    /* background-color: red; */
+}
+
+.footer_text {
+    color: white;
+    margin: 0;
+    opacity: 0.3;
+}
+
+.footer_image {
+    height: 9vh;
+    width: 9vh;
+}
+
+.footer_nav {
+    padding-left: 16vw;
 }
