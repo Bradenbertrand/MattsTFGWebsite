@@ -80,14 +80,6 @@ a:focus {
     font-size: 32px;
 }
 
-.nav_list_footer {
-    color: white;
-    padding-left: 10vh;
-    padding-right: 3vh;
-    padding-top: 3vh;
-    font-size: 18px;
-}
-
 .nav_image {
     height: 10vh;
     width: 10vh;
@@ -187,8 +179,15 @@ h6 {
     /* background-color: red; */
 }
 
-.footer_text {
+.footer_text_archive {
     color: white;
+    margin-bottom: 0;
+    margin-top: 1vh;
+    opacity: 0.3;
+}
+
+.footer_text_shop {
+    color: black;
     margin-bottom: 0;
     margin-top: 1vh;
     opacity: 0.3;
@@ -201,13 +200,35 @@ h6 {
 
 .footer_nav {
     padding-left: 16vw;
+    padding-top: 2vh;
+}
+
+.nav_list_footer_shop {
+    color: black;
+    padding-left: 10vh;
+    padding-right: 3vh;
+    padding-top: 3vh;
+    font-size: 18px;
+}
+
+.nav_list_footer_archive {
+    color: white;
+    padding-left: 10vh;
+    padding-right: 3vh;
+    padding-top: 3vh;
+    font-size: 18px;
 }
 
 .shirt1 {
     display: flex;
 }
 
-.shirt1imagecontainer {
+.shirt2 {
+    display: flex;
+    padding-top: 20vh;
+}
+
+.shirtimagecontainer {
     margin-top: 10vh;
     width: 50vw;
 }
@@ -215,6 +236,10 @@ h6 {
 .shirt1image {
     height: 60vh;
     padding-left: 2.5vw;
+}
+
+.shirt2image {
+    height: 55vh;
 }
 
 .shirt1description {
