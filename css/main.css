@@ -5,6 +5,7 @@ html {
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
     padding: 0;
+    margin: 0;
     Font-family: 'Roboto', Sans-serif;
 }
 
@@ -40,7 +41,12 @@ a:focus {
 }
 
 .home {
-    background-color: white;
+    background-image: url("/Images/Shopbg.jpg");
+    background-size: 1920px 2160px;
+    overflow: scroll;
+    width: 100vw;
+    height: 200vh;
+    margin: 0;
 }
 
 .archive {
@@ -102,17 +108,14 @@ h1 {
 
 h2 {
     font-size: 63.96px;
-    margin-bottom: 0;
 }
 
 h3 {
     font-size: 45.23px;
-    margin: 0;
 }
 
 h4 {
     font-size: 31.99px;
-    margin-top: 10vh;
 }
 
 h5 {
@@ -152,7 +155,7 @@ h6 {
 }
 
 .toptext {
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-bottom: 4vh;
 }
 
@@ -198,4 +201,56 @@ h6 {
 
 .footer_nav {
     padding-left: 16vw;
+}
+
+.shirt1 {
+    display: flex;
+}
+
+.shirt1imagecontainer {
+    margin-top: 10vh;
+    width: 50vw;
+}
+
+.shirt1image {
+    height: 60vh;
+    padding-left: 2.5vw;
+}
+
+.shirt1description {
+    width: 50vw;
+    background-color: white;
+}
+
+.shirt1text {
+    padding-left: 10vw;
+    padding-top: 5vh;
+}
+
+.shirttitle {
+    margin: 0;
+}
+
+.shirtDescription {
+    margin: 0;
+}
+
+.shirtSubtitle {
+    margin: 0;
+}
+
+.shirtSubsubtitle1 {
+    margin: 0;
+    padding-bottom: 8vh;
+}
+
+.shirtSubsubtitle {
+    margin: 0;
+    padding-bottom: 3vh;
+}
+
+.buybutton {
+    font-size: 16px;
+    color: white;
+    background-color: black;
 }
